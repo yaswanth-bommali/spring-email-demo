@@ -19,7 +19,7 @@ public class SpringEmailTestApplication {
 
     @EventListener(ApplicationReadyEvent.class)
     public void sendMail(){
-        mailSender.sendEmail("yaswanth.9980@gmail.com","Test Subject","This is a test message");
+        mailSender.sendEmail("to-email@gmail.com","Test Subject","This is a test message");
     }
 
 }
